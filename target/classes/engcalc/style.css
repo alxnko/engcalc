@@ -1,0 +1,66 @@
+/*
+scroll pane
+*/
+.scroll-pane > .viewport {
+  -fx-background-color: transparent;
+}
+.scroll-pane {
+  -fx-background-color: #555555;
+}
+.top-pane {
+  -fx-background-color: #333333;
+}
+ss .scroll-bar:horizontal,
+.scroll-bar:vertical {
+  -fx-background-color: transparent;
+}
+
+.increment-button,
+.decrement-button {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+  -fx-background-color: white;
+  -fx-background-radius: 5em;
+}
+
+.history-pane {
+  -fx-background-color: black;
+}
+/*
+buttons
+*/
+.small-button {
+  -fx-background-color: #333333;
+}
+.small-button:hover {
+  -fx-background-color: #555555;
+}
+.red-button {
+  -fx-background-color: #ff5959;
+}
+.red-button:hover {
+  -fx-background-color: #990000;
+}
+.orange-button {
+  -fx-background-color: #ffb759;
+}
+.blue-button {
+  -fx-background-color: #5964ff;
+}
+.green-button {
+  -fx-background-color: #00ff82;
+}
+.green-button:hover {
+  -fx-background-color: #ccffcc;
+}
